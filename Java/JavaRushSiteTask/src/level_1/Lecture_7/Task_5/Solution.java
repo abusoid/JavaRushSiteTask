@@ -18,11 +18,12 @@ package level_1.Lecture_7.Task_5;
 public class Solution {
 
     public static void showWeather(City city) {
-        //напишите тут ваш код
+        System.out.println("В городе "+ city.getName() + " сегодня температура воздуха " + city.getTemperature());
     }
 
     public static void main(String[] args) {
-        //напишите тут ваш код
+        City Dubai = new City("Дубай", 40);
+        showWeather(Dubai);
     }
 }
 
